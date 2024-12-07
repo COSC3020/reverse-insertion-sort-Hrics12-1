@@ -36,3 +36,18 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+
+So, I think the reasoning the average case is also $\Theta(n^2)$ is because
+of how the elements are initially laid out. The best case is having everything 
+in order and worst case is having everything in the opposite order.
+When you take the average of that you would say that the function 
+will compare the values to at least half the other elements. 
+Meaning the elements will have an average distance by comparison to their final
+sorted place. 
+
+//I watched time complexity os insertion sort by 'CS Talks by Lee' on youtube to help me
+
+I used my repo from last semester https://github.com/COSC3020/reverse-insertion-sort-Hrics12
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
